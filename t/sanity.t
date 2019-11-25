@@ -388,7 +388,7 @@ GET /foo
         content_by_lua 'ngx.print("这是一段文本")';
     }
 --- request
-GET /main
+GET /foo
 --- charset: gbk
 --- response_body chop
 这是一段文本

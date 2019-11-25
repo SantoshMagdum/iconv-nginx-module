@@ -99,7 +99,7 @@ GET /main
 --- response_body eval
 "你好
 HTTP/1.1 200 OK\r
-Server: nginx\r
+Server: openresty\r
 Content-Type: text/plain\r
 Connection: close\r
 \r
